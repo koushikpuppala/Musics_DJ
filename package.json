@@ -1,0 +1,51 @@
+{
+	"name": "@koushikpuppala/musics_dj",
+	"version": "2.0.0",
+	"description": "Discord music bot written in javascript using discord.js",
+	"main": "src/index.js",
+	"engines": {
+		"node": ">=14.x",
+		"npm": ">=6.x"
+	},
+	"scripts": {
+		"start": "set NODE_ENV=production&&node src/index.js",
+		"dev": "set NODE_ENV=development&&nodemon src/index.js"
+	},
+	"author": "Koushik Puppala",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Discord-Avengers-Assemble-Server/Musics_DJ.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Discord-Avengers-Assemble-Server/Musics_DJ/issues"
+	},
+	"homepage": "https://github.com/Discord-Avengers-Assemble-Server/Musics_DJ#readme",
+	"dependencies": {
+		"@koushikpuppala/erela.js": "^2.0.1",
+		"@sentry/node": "^6.8.0",
+		"axios": "^0.21.1",
+		"blapi": "^2.0.0",
+		"chalk": "^4.1.0",
+		"cpu-stat": "^2.0.1",
+		"dblapi.js": "^2.4.0",
+		"discord.js": "^12.5.1",
+		"dotenv": "^10.0.0",
+		"erela.js": "^2.3.3",
+		"eslint": "^7.29.0",
+		"express": "^4.17.1",
+		"figlet": "^1.4.0",
+		"is-absolute-url": "^3.0.3",
+		"ksoft.js": "^3.1.4",
+		"mongoose": "^5.9.19",
+		"node-fetch": "^2.6.0",
+		"spotify-url-info": "^2.2.3",
+		"statcord.js": "^3.0.7",
+		"webhook.space": "^1.0.0",
+		"ytsr": "^3.5.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7",
+		"pm2": "^5.1.0"
+	}
+}

@@ -24,7 +24,7 @@
 	"dependencies": {
 		"@koushikpuppala/erela.js": "^2.0.1",
 		"@sentry/node": "^6.8.0",
-		"axios": "^0.21.1",
+		"axios": "^0.27.2",
 		"blapi": "^2.0.0",
 		"chalk": "^4.1.0",
 		"cpu-stat": "^2.0.1",
